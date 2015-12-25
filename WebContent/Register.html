@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+	<title>Registration</title>
+	<link href="CSS/bootstrap.css" rel="stylesheet" />
+</head>
+<body><center>
+	<h1>Registration</h1>
+	<table class="table table-bordered table-hover">
+		<form name="registrationPage" method="post" action="RegisterServlet1" class="form-horizontal">
+			<tr>
+				<td>Name :</td>
+				<td><input class="form-control" type="text" name="name" id="name"></td>
+			</tr>
+			<tr>
+				<td>Address :</td>
+				<td><input type="text" class="form-control" id="add" name="add"></textarea></td>
+				
+			</tr>
+			<tr>
+				<td>Gender :</td>
+				<td><input type="radio" name="gender" value="male" checked="checked" id="gender">Male<br>
+					<input type="radio" name="gender" value="female" id="gender">Female </td>
+			</tr>
+			<tr>
+				<td>Mobile No :</td>
+				<td><input class="form-control" type="text" name="mno" id="mno"></td>
+			</tr>
+			<tr>
+				<td>E-mail :</td>
+				<td><input class="form-control" type="text" name="email" id="email"></td>
+			</tr>
+			<tr>
+				<td>Submit</td>
+				<td><input class="btn btn-primary" type="submit" name="submit" value="Submit"></td>
+			</tr>
+		</form>
+	</table>
+</center>
+</body>
+</html>
